@@ -1,0 +1,31 @@
+:root {
+  color-scheme: light dark;
+  --bg-color: #050505;
+  --card-bg: #111111;
+  --card-border: #262626;
+  --text-color: #f0f0f0;
+  --muted: #9fa1a7;
+  --accent: #4f46e5;
+  --accent-hover: #4338ca;
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+}
+
+button {
+  font: inherit;
+}
